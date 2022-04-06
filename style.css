@@ -152,6 +152,8 @@ section {
   max-height: 10rem;
 }
 
+
+/* Modal */
 .modal-bg {
   position: fixed;
   top: 0;
@@ -201,8 +203,11 @@ section {
 .modal span {
   display: inline-block;
   margin-bottom: 10px;
+  display: flex;
+  font-size: 1.2rem;
 }
 .modal i {
+  margin-left: auto;
   cursor: pointer;
 }
 
