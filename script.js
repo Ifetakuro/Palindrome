@@ -67,9 +67,10 @@ window.onclick = (e) => {
 let closeModal = document.querySelector('.modal i');
 let modal = document.querySelector('.modal-bg')
 
+//set timeout to 10secs
 setTimeout(() => {
   modal.classList.add('active')
-}, 60000)
+}, 10000)
 
 closeModal.addEventListener('click', () => {
   modal.classList.remove('active');
