@@ -69,7 +69,7 @@ let modal = document.querySelector('.modal-bg')
 
 setTimeout(() => {
   modal.classList.add('active')
-}, 60000)
+}, 500)
 
 closeModal.addEventListener('click', () => {
   modal.classList.remove('active');
